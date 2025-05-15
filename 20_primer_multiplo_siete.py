@@ -1,0 +1,6 @@
+numeros = [4, 9, 12, 5, 7, 18, 21, 25, 30]
+
+for i, number in enumerate(numeros):
+    if number % 7 == 0 :
+        print(f"{i}: {number}")
+        break
